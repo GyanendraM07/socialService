@@ -1,0 +1,46 @@
+#datadiv{
+    height: auto;
+}
+
+#postdiv1{
+    background-color: blue;
+    border: 2px solid red;
+    height: 8cm;
+    width: 8cm;
+ 
+}
+#postdiv2{
+    background-color: #008000;
+    border: 2px solid orange;
+    height: 8cm;
+    width: 8cm;
+   
+}
+#postdiv3{
+    background-color: yellow;
+    border: 2px solid cyan;
+    height: 8cm;
+    width: 8cm;
+   
+}
+
+#postMaindiv{
+    display: grid;
+    grid-template-areas:
+      "a b k"
+}
+
+#divcol1{
+    grid-area: a;
+    border-color: 2px solid green;
+
+}
+#divcol2{
+    grid-area: b;
+    margin-left: -4cm;
+}
+#divcol3{
+    grid-area: k;
+    margin-left: -4cm;
+}
+

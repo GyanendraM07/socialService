@@ -1,0 +1,26 @@
+#icon1{
+  width: 1cm;
+  height: 1cm;
+  margin-left: -2cm;
+}
+.h3{
+margin-left: 0.4cm;
+font-size: medium;
+}
+.div1{
+  float: left;
+  position: fixed;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 17%;
+  height: 598px;
+}
+.btn{
+  width: 6cm;
+  
+}
+.btn:hover{
+  background-color: red;
+  color: red;
+  border-color: red;
+}

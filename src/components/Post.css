@@ -1,0 +1,218 @@
+#div1{
+    /* background-color: #C13584; */
+    margin-left: 4cm;
+    margin-top: 1cm;
+    grid-area: e;
+}
+#div2{
+   width: 13cm;
+   height: 23cm;
+   border:solid black 2px;
+   border-radius: 8px;
+   padding-top: 0.3cm;
+}
+#div3{
+    width: 13cm;
+    height: 23cm;
+    border:solid black 2px;
+    border-radius: 8px;
+    padding-bottom: 0.3cm;
+
+     /* background-color: red; */
+}
+#div3::after{
+    content: "\a";
+    white-space: pre;
+}
+.di2{
+    
+    padding-left: 0.2cm;
+    margin-top: 0.3cm;
+}
+.d1{
+    margin-top: 0.2cm;
+    margin-left: 0.2cm;
+}
+.like{
+height: 0.7cm;
+width: 0.7cm;
+margin-left: 0.4cm;
+}
+#comment{
+    height: 0.7cm;
+    width: 0.7cm;
+    margin-left: 0.4cm;
+}
+#share{
+    height: 0.7cm;
+    width: 0.7cm;
+    margin-left: 0.4cm;
+}
+#logo{
+   margin-left: 0.3cm;
+   margin-top: 0.3cm;
+   display: inline-flex;
+}
+#logo1{
+    display: inline-flex;
+    margin-left: -0.4cm;
+ }
+
+
+#comdiv1{
+   
+    background-color: blueviolet;
+    height: 2cm;
+    border-bottom: 1px solid black;
+}
+#comdiv2{
+    height: 8cm;
+    border-bottom: 1px solid black;
+    /* margin-left: -0.63cm;
+    margin-right:  -0.63cm; */
+}
+#comdiv3{
+    height: 2cm;
+    border-bottom: 1px solid black;
+    padding-top: 0.2cm;
+    /* background-color: red; */
+    /* margin-left: -0.63cm;
+    margin-right:  -0.63cm; */
+}
+#cancel{
+    margin-top: -1.5cm;
+    margin-left: 11.2cm;
+    color: white;
+    height: 0.8cm;
+    width: 0.8cm;
+}
+input{
+    display: inline;
+    height: 1cm;
+   width: 5cm;
+   margin-top: 1cm;
+}
+#btn1{
+    margin-left: 10cm;
+    margin-bottom: 1cm;
+}
+#story{
+    border: solid 2px red;
+    height: 3cm;
+    width: 13cm;
+    margin-left: 4cm;
+    border-radius: 8px;
+}
+#btn3{
+    margin-left: 6cm;
+    border-radius: 6px;
+    font-size: small;
+    color: whitesmoke;
+    background-color: 	#1E90FF;
+    height: 0.9cm;
+    width: 2.5cm;
+    margin-top: 0.1cm;
+}
+.maindiv{
+    display: grid;
+    grid-template-areas:
+      "e f "
+}
+.profile{
+    grid-area: f;
+    display: block;
+    /* border: 2px solid blue; */
+    margin-left: 3cm;
+    margin-top: 1.2cm;
+   
+}
+.profileh{
+    display: grid;
+    grid-template-rows: 5px 5px;
+    grid-template-areas:
+      "a b . . . . . k"
+      ". z . . . . . v"
+}
+.firstDiv{
+    grid-area: e;
+}
+.name{
+    grid-area: b;
+    display: grid;
+    grid-template-rows: 20px 10px;
+    margin-left: 0.2cm;
+   grid-template-areas:
+   "x"
+   "y"
+}
+.name1{
+    grid-area: b;
+    display: grid;
+    grid-template-rows: 20px 10px;
+    margin-left: 0.2cm;
+    margin-top: -0.2cm;
+    font-size: small;
+   grid-template-areas:
+   "x"
+   "y"
+}
+
+/* css for Profile .js */
+#profiledive{
+    height: auto;
+    width: 27cm;
+    border: solid rebeccapurple 2px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+      "e f "
+
+}
+
+#profiledive1{
+grid-area: e;
+width: 5cm;
+margin-left: 3.4cm;
+margin-top: 1.6cm;
+border: solid red 2px;
+}
+#profiledive2{
+grid-area: f;
+margin-left: -7.6cm;
+margin-top: 0.7cm;
+white-space: nowrap;
+border: solid red 2px;
+
+}
+.child{
+    display: inline-block;
+}
+.bio{
+    margin-top: -0.5cm;
+}
+.ved{
+    display: inline-block;
+    border-radius: 50%;
+object-fit: cover;
+}
+#storydiv{
+    border: solid rebeccapurple 2px;
+    white-space: nowrap;
+    margin-left: 1.7cm;
+    overflow-x: auto;
+}
+#storydi{
+    height: 4cm;
+    width: 27cm;
+    border: solid rebeccapurple 2px;
+
+}
+#postdiv{
+    height: 4cm;
+    width: 27cm;
+    border: solid rebeccapurple 2px;
+
+}
+#switch{
+
+}
