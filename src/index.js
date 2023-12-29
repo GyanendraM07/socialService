@@ -9,15 +9,17 @@ import Nav from "./components/Nav";
 import Signup from "./components/Signup";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CreatePost from './components/Home';
+import ChatComponent from './components/ChatComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-        <Routes>
-        <Route path="/" element={<Login/>} /> 
-          <Route path="/signup" element={<Signup/>} /> 
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/chat" element={<ChatComponent />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

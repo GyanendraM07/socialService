@@ -8,7 +8,7 @@ import MovieIcon from '@mui/icons-material/Movie';
 import { useState, useEffect } from 'react';
 import Axios from 'axios';
 
-export default function profile() {
+export default function Profile() {
 
     const [postImage1, setPostImage1] = useState([]);
     const [postImage2, setPostImage2] = useState([]);

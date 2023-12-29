@@ -65,8 +65,8 @@ export default function SignUpSide() {
     file: ""
   });
 
-  useEffect(() => {
-  }, []);
+  // useEffect(() => {
+  // }, []);
 
   // const token = async () => {
   //   try {
@@ -139,7 +139,7 @@ export default function SignUpSide() {
 
       const login = await Axios.post("api/signup", fd ,config);
       alert("Succesfully Posted"+data.file);
-       useEffect();
+      //  useEffect();
     } catch (error) {
       console.log(error);
     }
